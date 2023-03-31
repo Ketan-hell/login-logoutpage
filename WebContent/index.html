@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+color:white;
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+background-color:black;
+}
+#welcome h1{
+text-align:center;
+color:white;
+font-family:Brush Script;
+font-size:300%;
+background-color:pink;
+}
+#container{
+align:center;
+padding: 100px 100px;
+text-align:center;
+height:100}
+#container .tab{
+left-margin:auto;
+top-margin:auto;
+width:100%;}
+#container .tab tr td{
+font-size:30px;}
+#container .tab tr td input{
+font-size:20px;
+size:20px;
+border: 20px,solid,black;
+color:black;}
+#container .final input{
+font-size:20px;
+size:20px;
+padding:10px;
+background-color:grey;
+margin:30px;}
+#container .final{
+margin:40px;
+;}
+h2{
+font-size:40px;}
+.note{
+text-align:center;
+font-size:40px;}
+</style>
+<meta charset="ISO-8859-1">
+<title>User Login</title>
+</head>
+<body>
+<form action="login" method="post">
+<div id="welcome">
+<h1><marquee direction="right" behavior="alternate"> Weclome to our website</marquee></h1><br>
+</div>
+<div id="container">
+<h2><u>User Login</u></h2><br>
+<table class="tab">
+<tr>
+<td>Enter your e-mail</td>
+<td><input type="email" placeholder="Username" name="user-email"></td></tr>
+<tr>
+<td>Enter password</td>
+<td><input type="password" placeholder="Password" name="user-password"></td>
+</tr>
+</table>
+<div class="final">
+<input type="submit" name="user-submit"></input>
+<input type="reset" name="user-reset"></input>
+</div>
+</div>
+</form>
+</body>
+</html>
